@@ -92,7 +92,7 @@ procgen-starter-example:
         # Use PyTorch (instead of tf). If using `rllib train`, this can also be
         # enabled with the `--torch` flag.
         # NOTE: Some agents may not support `torch` yet and throw an error.
-        use_pytorch: False
+        framework: torch
 
         ################################################
         ################################################
@@ -155,7 +155,7 @@ procgen-starter-example:
             # https://github.com/ray-project/ray/blob/master/rllib/examples/custom_keras_model.py
             custom_model: my_vision_network
             # Extra options to pass to custom class
-            custom_options: {}
+            custom_model_config: {}
 
         ################################################
         ################################################
