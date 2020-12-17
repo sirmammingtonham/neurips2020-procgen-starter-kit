@@ -1,0 +1,10 @@
+{
+  "AwsAccountId": "399362199941",
+  "AwsRegion": "us-west-2",
+  "S3Bucket": "sagemaker-soln-drl-procgen-workpls-neurips-2020-workplsoa2",
+  "SageMakerIamRoleArn": "arn:aws:iam::399362199941:role/sagemaker-soln-drl-procgen-workpls-nb-role",
+  "ECRImageBaseName": "sagemaker-soln-drl-procgen-workpls-image",
+  "SolutionCodeBuildProject": "sagemaker-soln-drl-procgen-workpls-image-container-build",
+  "CPUTrainingInstance": "SageMakerCPUTrainingInstanceType",
+  "GPUTrainingInstance": "SageMakerGPUTrainingInstanceType"
+}
